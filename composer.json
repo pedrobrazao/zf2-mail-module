@@ -1,0 +1,17 @@
+{
+    "name": "phower/zf2-mail-module",
+    "description": "Zend Framework 2 module to create and send email messages.",
+    "type": "module",
+    "require": {
+        "php": ">=5.5.9",
+        "zendframework/zend-mail": "^2.5",
+        "zendframework/zend-servicemanager": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Ferreira",
+            "email": "pedro@phower.com"
+        }
+    ]
+}

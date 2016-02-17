@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'phower-mail' => [
+        'messages' => [
+            'default' => [
+                /**
+                 * @link http://framework.zend.com/manual/current/en/modules/zend.mail.message.html
+                 */
+                'from' => [
+                    'email' => 'YOUR EMAIL ADDRESS',
+                    'name' => 'YOUR NAME',
+                ],
+                'encoding' => 'utf-8',
+            ],
+        ],
+        'transports' => [
+            'default' => [
+                'type' => 'smtp',
+                /**
+                 * @link http://framework.zend.com/manual/current/en/modules/zend.mail.smtp.options.html
+                 */
+                'options' => [
+                    'host' => 'SMTP HOSTNAME',
+                    'port' => 465,
+                    'connection_class' => 'login',
+                    'connection_config' => [
+                        'username' => 'USERNAME',
+                        'password' => 'PASSWORD',
+                        'ssl' => 'ssl'
+                    ],
+                ],
+            ],
+        ],
+    ],
+];
