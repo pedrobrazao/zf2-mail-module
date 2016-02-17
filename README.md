@@ -8,7 +8,6 @@ Instalation
 
 ### Composer ###
 
-    ```bash
     composer require phower/zf2-mail-module
 
 Configuration
@@ -24,7 +23,7 @@ Usage
 
 From a Controller or any Service Locator Aware instance:
 
-    ```php
+    <?php
     $mailService = $this->getServiceLocator()->get('PhowerMailService');
     $message = $mailService->getMessage();
     $message->addTo('user@example.com')
