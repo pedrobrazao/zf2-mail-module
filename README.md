@@ -16,7 +16,7 @@ Configuration
 1. Copy vendor/phower/zf2-mail-module/config/phower-mail-module.php.dist to 
    config/autoload/phower-mail-module.local.php and update your settings.
 
-2. Edit config/application.php and add ```PhowerMailModule``` to your modules list.
+2. Edit config/application.config.php and add ```PhowerMailModule``` to your modules list.
 
 Usage
 -----

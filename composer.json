@@ -7,6 +7,11 @@
         "zendframework/zend-mail": "^2.5",
         "zendframework/zend-servicemanager": "^2.5"
     },
+    "autoload": {
+        "psr-0": {
+            "PhowerMailModule\\": "src/"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
